@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>GNU Radar</title>
+<center><h1><u>RADAR</u></h1>
+<big><b>The <a href="http://www.gnu.org/">GNU</a> Realtime Action-Oriented Deterministic Automaton for
+Remediation</b></big></center><p>
+</head>
+<body>
+<b>Purpose:</b> To provide "Internet-quality" Network Management based on <a href="http://www.rfc-editor.org/">RFCs</a><br>
+<b>License:</b> <a href="http://www.gnu.org/copyleft/gpl.html">GPL</a><br>
+<b>Development:</b> <a href="http://sagan.earthspace.net/~esr/writings/cathedral-bazaar/">Baazar</a>, Anon-access <a href="http://www.cyclic.com/cvs/info.html">CVS</a>.<br>
+<b>Dependencies:</b>
+<ul>
+  <li>GNU FreeODBC Library</li>
+  <li>SNMPTrap Library (Looking at CMU's stuff)</li>
+</ul>
+All software will be assigned to the <a href="http://www.gnu.org/fsf/fsf.html">FSF</a>.<p>
+<hr>
+A <a href="images/radaroverview.jpg">pretty picture</a> of the overall design.<p>
+<b>Phase 1:</b> Standard <a href="http://info.internet.isi.edu/in-notes/rfc/files/rfc2275.txt">SNMP</a> traps and <a href="http://info.internet.isi.edu/in-notes/rfc/files/rfc792.txt">ICMP</a> Echo(Ping) or Mask response.  Notification action
+extensible though <a href="http://www.red-bean.com/guile/">Guile</a> & Executibles/Script Languages (<a href="http://www.perl.org/">Perl</a>, etc).
+TCP service checking by polling ports to see if service is still functioning.<p>
+<b>Phase 2:</b> <a href="http://www.gtk.org/">Gtk+</a> based graphical system<p>
+<b>Phase 3:</b> All facilities accessible through web interface.  RMON/RMON II
+monitoring<p>
+<b>Phase 4:</b> Packet capture/decoder.<p>
+The Phases are not necessarily sequencial, they merely represent units
+of work that should be logically completed together.<p>
+<hr>
+<a href="http://www.yahoo.com/Computers_and_Internet/Software/Text_Editors/vi/" 
+alt="[Vi Powered]"><image align=right src="../images/vi.gif" border=0></a>
+<i>Last Updated: Nov 12, 1998</i><br>
+<i><a href="mailto:jbailey@gnu.org">Jeff Bailey</a>
+</body>
+</html>
